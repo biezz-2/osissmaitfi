@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classmeet - OSIS SMAIT FITHRAH INSANI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-basketball-ball text-blue-600 text-2xl"></i>
+                <span class="font-bold text-xl text-blue-600">OSIS SMAIT Fithrah Insani</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="../../../index.html" class="text-gray-600 hover:text-blue-600 transition-all">Home</a>
+                <a href="../../../bidang.html" class="text-gray-600 hover:text-blue-600 transition-all">Programs</a>
+                <a href="../../../about.html" class="text-gray-600 hover:text-blue-600 transition-all">About</a>
+                <a href="../../sekbid-5/index.html" class="text-gray-600 hover:text-blue-600 transition-all">Sekbid 5</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-white bg-opacity-95 z-50 flex flex-col items-center justify-center space-y-8 text-2xl font-semibold text-blue-700 hidden">
+        <button id="close-mobile-menu" class="absolute top-6 right-8 text-gray-600 text-3xl focus:outline-none">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="../../../index.html" class="hover:text-blue-500 transition-all">Home</a>
+        <a href="../../../bidang.html" class="hover:text-blue-500 transition-all">Programs</a>
+        <a href="../../../about.html" class="hover:text-blue-500 transition-all">About</a>
+        <a href="../../sekbid-5/index.html" class="hover:text-blue-500 transition-all">Sekbid 5</a>
+    </div>
+    <header class="bg-gradient-to-r from-purple-500 to-indigo-700 text-white py-16 text-center">
+        <h1 class="text-4xl font-bold mb-4">Classmeet</h1>
+        <p class="text-lg max-w-2xl mx-auto">Ajang kompetisi dan kebersamaan antar kelas untuk mempererat persaudaraan dan menumbuhkan semangat sportivitas di lingkungan SMAIT Fithrah Insani.</p>
+    </header>
+    <main class="container mx-auto px-4 py-12">
+        <section class="mb-12">
+            <div class="flex items-center mb-4">
+                <div class="bg-purple-100 p-4 rounded-full mr-4 flex items-center justify-center">
+                    <i class="fas fa-bullseye text-purple-600 text-3xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-purple-700">Tujuan Classmeet</h2>
+            </div>
+            <p class="text-gray-700 mb-6">Untuk meningkatkan interaksi antar siswa melalui kompetisi yang melibatkan kerjasama, komunikasi, dan empati dalam berbagai aktivitas.</p>
+        </section>
+        <section class="mb-12">
+            <div class="flex items-center mb-4 justify-center">
+                <div class="bg-indigo-100 p-4 rounded-full mr-4 flex items-center justify-center">
+                    <i class="fas fa-cogs text-indigo-600 text-3xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-indigo-700">Teknis Pelaksanaan</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6 justify-center">
+                <div class="flex items-start bg-white rounded-xl shadow p-4 mx-auto">
+                    <div class="bg-lime-100 p-3 rounded-full mr-2 flex items-center justify-center">
+                        <i class="fas fa-kaaba text-lime-600 text-2xl"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-1">Manasik</h3>
+                        <p class="text-gray-700">Simulasi manasik haji antar kelas untuk menanamkan pemahaman rukun haji, kekompakan, dan nilai spiritual.</p>
+                    </div>
+                </div>
+                <div class="flex items-start bg-white rounded-xl shadow p-4 mx-auto">
+                    <div class="bg-yellow-100 p-3 rounded-full mr-2 flex items-center justify-center">
+                        <i class="fas fa-basketball-ball text-yellow-600 text-2xl"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-1">Basket</h3>
+                        <p class="text-gray-700">Pertandingan basket antar kelas untuk menumbuhkan semangat kompetisi dan kekompakan.</p>
+                    </div>
+                </div>
+                <div class="flex items-start bg-white rounded-xl shadow p-4 mx-auto">
+                    <div class="bg-pink-100 p-3 rounded-full mr-4 flex items-center justify-center">
+                        <i class="fas fa-comments text-pink-600 text-2xl"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-1">Forum Grup Discussion</h3>
+                        <p class="text-gray-700">Kompetisi Forum Grup Discussion (FGD) antar kelas untuk melatih kemampuan berpikir kritis, komunikasi, dan debat sehat.</p>
+                    </div>
+                </div>
+                <div class="flex items-start bg-white rounded-xl shadow p-4 mx-auto">
+                    <div class="bg-orange-100 p-3 rounded-full mr-4 flex items-center justify-center">
+                        <i class="fas fa-store text-orange-600 text-2xl"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-1">Market Day</h3>
+                        <p class="text-gray-700">Market Day antar kelas untuk melatih jiwa kewirausahaan, kreativitas, dan kerjasama dalam berjualan produk atau makanan.</p>
+                    </div>
+                </div>
+                <div class="flex items-start bg-white rounded-xl shadow p-4 mx-auto">
+                    <div class="bg-teal-100 p-3 rounded-full mr-4 flex items-center justify-center">
+                        <i class="fas fa-hand-paper text-teal-600 text-2xl"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-1">Bola Tangan (Akhwat)</h3>
+                        <p class="text-gray-700">Kompetisi bola tangan khusus akhwat untuk melatih kekompakan, strategi, dan sportivitas dalam permainan bola tangan.</p>
+                    </div>
+                </div>
+                <div class="flex items-start bg-white rounded-xl shadow p-4 mx-auto">
+                    <div class="bg-red-100 p-3 rounded-full mr-4 flex items-center justify-center">
+                        <i class="fas fa-guitar text-red-600 text-2xl"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-1">Solo Guitar</h3>
+                        <p class="text-gray-700">Kompetisi solo gitar elektrik untuk menampilkan bakat bermusik, kreativitas, dan ekspresi seni siswa.</p>
+                    </div>
+                </div>
+                <div class="flex items-start bg-white rounded-xl shadow p-4 md:col-span-2 mx-auto">
+                    <div class="bg-blue-100 p-3 rounded-full mr-4 flex items-center justify-center">
+                        <i class="fas fa-calendar-alt text-blue-600 text-2xl"></i>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-1">Waktu Pelaksanaan</h3>
+                        <p class="text-gray-700">Dilaksanakan selama <span class="font-semibold">3 hari</span> pada <span class="font-semibold">11, 12, dan 13 Desember 2024</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-2xl font-bold mb-4 text-purple-700 text-center">Dokumentasi</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col items-center justify-center p-4">
+                    <img src="./Classmeet/1.JPG" alt="Classmeet 1" class="w-full h-56 object-cover object-center mb-2">
+                    <p class="text-center text-gray-700 text-sm">Pertandingan Basket Ikhwan antar kelas</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col items-center justify-center p-4">
+                    <img src="./Classmeet/2.JPG" alt="Classmeet 2" class="w-full h-56 object-cover object-center mb-2">
+                    <p class="text-center text-gray-700 text-sm">Lomba Forum Grup Discussion</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col items-center justify-center p-4">
+                    <img src="./Classmeet/3.JPG" alt="Classmeet 3" class="w-full h-56 object-cover object-center mb-2">
+                    <p class="text-center text-gray-700 text-sm">Pembagian hadiah</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Quick Links Section -->
+    <section class="bg-white border-t py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-xl font-bold text-indigo-700 mb-4 text-center">Quick Links</h2>
+            <div class="flex flex-wrap justify-center gap-4 mb-6">
+                <a href="../../../index.html" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-semibold px-5 py-2 rounded-full shadow transition-all flex items-center"><i class="fas fa-home mr-2"></i> Home</a>
+                <a href="../../../anggota-osis.html" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-semibold px-5 py-2 rounded-full shadow transition-all flex items-center"><i class="fas fa-users mr-2"></i> Anggota OSIS</a>
+                <a href="../../../bidang.html" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-semibold px-5 py-2 rounded-full shadow transition-all flex items-center"><i class="fas fa-layer-group mr-2"></i> Bidang OSIS</a>
+                <a href="../../../our-social-media.html" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-semibold px-5 py-2 rounded-full shadow transition-all flex items-center"><i class="fas fa-share-alt mr-2"></i> Social Media</a>
+            </div>
+            <div class="text-center text-gray-500 text-sm">
+                <span>Butuh info lebih lanjut? Kunjungi halaman <a href="../../../our-social-media.html" class="text-indigo-600 underline">Social Media</a> atau hubungi pengurus OSIS.</span>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 OSIS SMAIT Fithrah Insani. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Mobile menu toggle (overlay style)
+        document.addEventListener('DOMContentLoaded', function() {
+            const btn = document.getElementById('mobile-menu-button');
+            const menu = document.getElementById('mobile-menu');
+            const closeBtn = document.getElementById('close-mobile-menu');
+            if (btn && menu && closeBtn) {
+                btn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    menu.classList.remove('hidden');
+                });
+                closeBtn.addEventListener('click', function(e) {
+                    menu.classList.add('hidden');
+                });
+                // Prevent click inside menu from closing
+                menu.addEventListener('click', function(e) {
+                    if (e.target === menu) {
+                        menu.classList.add('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
