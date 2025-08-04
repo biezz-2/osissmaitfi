@@ -8,94 +8,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f8fafc;
-            animation: fadeIn 1.5s ease-in;
-            margin: 0;
-            padding: 0;
-            padding-top: 60px; /* Untuk fixed navbar */
-        }
-
-        /* Navbar styles */
-        .navbar-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1030;
-            background-color: rgba(248, 249, 250, 0.95);
-            backdrop-filter: blur(5px);
-        }
-
-        /* Mobile menu styles */
-        .mobile-nav {
-            display: block;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background-color: #ffffff;
-            border-radius: 0.375rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-            padding: 0.5rem 0;
-            margin-top: 0.5rem;
-            visibility: visible;
-            opacity: 1;
-            transform: translateY(0);
-            transition: opacity 0.3s ease, transform 0.3s ease;
-        }
-
-        .mobile-nav.show {
-            visibility: visible;
-            opacity: 1;
-            transform: translateY(0);
-            transition-delay: 0s;
-        }
-
-        .mobile-nav a {
-            display: block;
-            padding: 0.75rem 1rem;
-            color: #facc15;
-            text-decoration: none;
-            font-weight: 500;
-            transition: background-color 0.2s;
-        }
-
-        .mobile-nav a:hover {
-            background-color: rgba(250, 204, 21, 0.1);
-        }
-
-        /* Mobile menu responsive styles */
-        @media (max-width: 768px) {
-            .mobile-nav {
-                width: calc(100% - 2rem);
-                margin-left: 1rem;
-                margin-right: 1rem;
-                visibility: visible;
-                opacity: 0;
-                transform: translateY(-10px);
-                transition: opacity 0.3s ease, transform 0.3s ease;
-            }
-
-            .mobile-nav.show {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
         .gallery-item {
             transition: all 1.3s ease;
         }
-
+        body {
+            animation: fadeIn 1.5s ease-in;
+        }
+        
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }   
             to { opacity: 1; transform: translateY(0); }
         }
-        
         .hero-section {
             background: linear-gradient(135deg, #dfbf0d 0%, #FFF8DC 100%);
             min-height: 200px;
@@ -202,8 +125,8 @@
 </head>
 <body class="font-sans bg-gray-50">
     <!-- Top Navigation Bar -->
-        <nav class="navbar-container border-bottom py-2">
-        <div class="container">
+    <div class="bg-light border-bottom py-2">
+        <div class="container position-relative">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center">
                     <img src="./global/logo.png" alt="Logo OSIS" class="rounded-circle me-2" width="32" height="32">
@@ -217,22 +140,29 @@
                     <a href="people.html" class="text-warning text-decoration-none fw-medium">Foto Anggota</a>
                 </div>
                 <div class="d-lg-none">
-                    <button class="btn btn-outline-warning btn-sm" type="button" onclick="toggleMobileNav()"
-                        aria-label="Toggle navigation menu">
+                    <button class="btn btn-outline-warning btn-sm" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#topNavCollapse"
+                            aria-expanded="false"
+                            aria-controls="topNavCollapse"
+                            aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
             </div>
-            <!-- Mobile Navigation -->
-            <div class="mobile-nav" id="mobileNav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="bidang.html">Program Kerja</a>
-                <a href="our-social-media.html">Our Social Media</a>
-                <a href="people.html">Foto Anggota</a>
+            <!-- Mobile Top Navigation -->
+            <div class="collapse mt-2" id="topNavCollapse">
+                <nav class="d-flex flex-column gap-2">
+                    <a href="index.html" class="text-warning text-decoration-none fw-medium">Home</a>
+                    <a href="about.html" class="text-warning text-decoration-none fw-medium">About</a>
+                    <a href="bidang.html" class="text-warning text-decoration-none fw-medium">Program Kerja</a>
+                    <a href="our-social-media.html" class="text-warning text-decoration-none fw-medium">Our Social Media</a>
+                    <a href="people.html" class="text-warning text-decoration-none fw-medium">Foto Anggota</a>
+                </nav>
             </div>
         </div>
-    </nav>
+    </div>
 
     <!-- Hero Section -->
     <header class="hero-section">
