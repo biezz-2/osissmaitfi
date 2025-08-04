@@ -1,26 +1,24 @@
-# 🏫 OSIS SMAIT FUTURE ISLAMIC
+# 🏫 OSIS SMAIT FITHRAH INSANI
 
 <div align="center">
   <img src="https://img.shields.io/badge/OSIS-SMAIT%20FI-blue?style=for-the-badge" alt="OSIS SMAIT FI"/>
   <br/>
-  <i>Organisasi Siswa Intra Sekolah - SMAIT Future Islamic</i>
+  <i>Organisasi Siswa Intra Sekolah - SMAIT FITHRAH INSANI</i>
 </div>
 
 ## 📖 About
 
-Welcome to the official repository of OSIS SMAIT Future Islamic! This repository serves as a central hub for our organization's digital resources and projects.
+Welcome to the official repository of OSIS SMAIT Fithrah Insani! This repository serves as a central hub for our organization's digital resources and projects.
 
 ## 🎯 Vision & Mission
 
 ### Vision
-To create a dynamic and innovative student organization that embodies Islamic values while promoting academic excellence and leadership.
+Welcome to the official repository of OSIS SMAIT Fithrah ! This repository serves as a central hub for our organization's digital resources and projects.
 
 ### Mission
-- 🌟 Foster leadership skills among students
-- 📚 Promote Islamic values in daily activities
-- 🤝 Build strong community engagement
-- 🎨 Encourage creativity and innovation
-- 💪 Develop student potential in various fields
+- 🌟 Integration of Islamic Values
+- 📚 Discipline & Exemplary
+- 🎨 Potential Development
 
 ## 🔧 Structure
 
@@ -30,25 +28,30 @@ To create a dynamic and innovative student organization that embodies Islamic va
 - 💰 **Bendahara**
 - 📋 **Divisi-divisi**
   - Divisi Keagamaan
-  - Divisi Akademik
-  - Divisi Olahraga
-  - Divisi Seni & Budaya
-  - Divisi Humas
+  - Divisi Kedisiplinan
+  - Divisi Pendidikan
+  - Divisi Literasi
+  - Divisi Bakat dan Minat
+  - Divisi Kesehatan
+  - Divisi Kewirausahaan
+  - Divisi Media
 
 ## 📅 Programs
 
-- Islamic Student Activities
-- Academic Competitions
-- Sports Tournaments
-- Arts & Cultural Events
-- Leadership Training
-- Social Service Projects
+- Responsible for religious and spiritual activities at school.
+- Develop a sense of nationalism and patriotism.
+- Educate students to be insightful
+- Educate students in the field of language
+- Developing students' talents and creativity.
+- Bertanggung jawab dalam kebersihan dan kesehatan.
+- Train entrepreneurship and manage funds.
+- Manage OSIS communications and information.
 
 ## 📞 Contact
 
-- 📧 Email: [Your Email]
-- 📱 Instagram: [@osissmaitfi]
-- 🌐 Website: [Your Website]
+- 📧 Email: [osissmaitfi@gmail.com]
+- 📱 Instagram: [https://www.instagram.com/osissmaitfi/]
+- 🌐 Website: [https://osissmaitfi.biezz.my.id/]
 
 ## 🤝 Contributing
 
@@ -64,5 +67,5 @@ We welcome contributions from all students! Feel free to:
 
 ---
 <div align="center">
-  Made with ❤️ by OSIS SMAIT Future Islamic
+  OSIS SMAIT FITHRAH INSANI
 </div>
