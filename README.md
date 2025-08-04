@@ -1,7 +1,7 @@
 # 🏫 OSIS SMAIT FITHRAH INSANI
 
 <div align="center">
-  <img src="https://img.shields.io/badge/OSIS-SMAIT%20FI-blue?style=for-the-badge" alt="OSIS SMAIT FI"/>
+  <img src="https://img.shields.io/badge/https://osissmaitfi.biezz.my.id/-blue?style=for-the-badge" alt="OSIS SMAIT FI"/>
   <br/>
   <i>Organisasi Siswa Intra Sekolah - SMAIT FITHRAH INSANI</i>
 </div>
