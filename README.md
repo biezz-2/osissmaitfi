@@ -44,9 +44,10 @@ Welcome to the official repository of OSIS SMAIT Fithrah ! This repository serve
 
 ## 📞 Contact
 
-- 📧 Email: [osissmaitfi@gmail.com]
-- 📱 Instagram: [https://www.instagram.com/osissmaitfi/]
-- 🌐 Website: [https://osissmaitfi.biezz.my.id/]
+- 📧 Email: [osissmaitfi@gmail.com](osissmaitfi@gmail.com)
+- 📱 Instagram: [@osissmaitfi](https://www.instagram.com/osissmaitfi/)
+- 🌐 Website: [OSIS website ](https://osissmaitfi.biezz.my.id/)
+- MY Social Media [@aapakahh_](https://www.instagram.com/aapakahh_1/)
 
 ## 🤝 Contributing
 
@@ -63,4 +64,6 @@ We welcome contributions from all students! Feel free to:
 ---
 <div align="center">
   OSIS SMAIT FITHRAH INSANI
+  By biezz-2
 </div>
+
