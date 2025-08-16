@@ -63,7 +63,8 @@ We welcome contributions from all students! Feel free to:
 
 ---
 <div align="center">
-  OSIS SMAIT FITHRAH INSANI
+  OSIS SMAIT FITHRAH INSANI WEBSITE 
   By biezz-2
 </div>
+
 
